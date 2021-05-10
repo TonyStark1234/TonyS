@@ -1,0 +1,222 @@
+<?php
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Porfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles_scss.scss" rel="stylesheet">
+    <link rel="shortcut icon" href="iconhere">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+   
+        <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a> -->
+        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#services">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#pricing">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="header" class="header">
+    <section id="contact" class="section-padding">
+          
+          <iframe src="welcome_page.html" width="100%" height="600" style="border:none;" ></iframe>
+     
+  </section>
+    </header> 
+<br>
+    <section id="contact" class="section-padding box" data-san="slideRight"  >
+          
+          <iframe src="about_me.html" width="100%" height="600" style="border:none;" ></iframe>
+     
+  </section>
+
+    <div id="services" class="cards-1">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12">
+                    <h2 class ="card-header mb-3">THIS IS MY PERSONAL PROJECTS</h2>
+                    <!-- <p class="p-heading p-large">This will be the landing page for all your 8Box payroll system requirements. For any concern, please email us at support@8box.solutions.</p> -->
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-lg-12">
+
+<!-- =================================== -->
+<div id="carouselExampleIndicators" class="carousel slide rounded " style="width: 70rem; center" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active">
+      <img class="d-block w-100 text-center img-fluid rounded" src="Screenshots/home1.png" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+    <h5>HOME PAGE</h5>
+
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 text-center img-fluid rounded" src="Screenshots/home2.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 text-center img-fluid rounded" src="Screenshots/order_online1.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- =================================== -->
+                 </div> 
+            </div> 
+        </div> 
+    </div> 
+
+
+    <div id="services" class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>My Top Cryptocurrencies</h2>
+                    <!-- <p class="p-heading p-large">This will be the landing page for all your 8Box payroll system requirements. For any concern, please email us at support@8box.solutions.</p> -->
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card" id="btn-admin">
+                        <img class="card-image" src="crypto/one.JFIF" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Harmony ONE</h4>
+                        </div>
+                    </div>
+
+                    <div class="card" id="btn-employee">
+                        <img class="card-image" src="crypto/shib_logo.png" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">SHIBA INU</h4>
+                        </div>
+                    </div>
+
+                    <div class="card" id="btn-web-timekeeping">
+                        <img class="card-image" src="crypto/eth.png" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Etherium</h4>
+                        </div>
+                    </div>
+ 
+                        <div class="card" id="btn-web-timekeeping">
+                            <img class="card-image" src="crypto/doge.png" alt="alternative">
+                            <div class="card-body">
+                                <h4 class="card-title">Dogecoin</h4>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+                    
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+
+<!-- ==================CONTACT================= -->
+    <section id="contact" class="section-padding">
+          
+          <iframe src="contact_us.html" width="100%" height="600" style="border:none;" ></iframe>
+     
+  </section>
+<!-- ==================CONTACT================= -->
+
+
+
+<!-- =================FOOTER-============ -->
+  <footer class="offspace-95">
+            <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+
+            <div class="social-icon-top-head">
+                <div class="social-grid">
+                    <ul class="list-unstyled text-center">
+                        <li><a class="facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/TonyStark1234"><i class="fa fa-github-alt"></i></a></li>
+                        <li><a class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a class="youtube"><i class="fa fa-youtube-play"></i></a></li>
+                    </ul>
+                </div>
+                <div class="copyright offspace-35">
+                    <!--Do not remove Backlink from footer of the template. To remove it you can purchase the Backlink !-->
+                    &copy; 2021 All right reserved. Designed by Mark Anthony Francisco.</a>
+                </div>
+            </div>
+        </footer>
+<!-- =================FOOTER-============ -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 <a href="#">LogoHere</a> - All rights reserved</p>
+                </div> 
+            </div> 
+        </div> 
+    </div>
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/jquery.easing.min.js"></script> 
+    <script src="js/swiper.min.js"></script> 
+    <script src="js/jquery.magnific-popup.js"></script> 
+    <script src="js/validator.min.js"></script> 
+    <script src="js/scripts.js"></script> 
+    <script src="js/customs-payroll.js"></script> 
+</body>
+</html>
