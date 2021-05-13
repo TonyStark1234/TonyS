@@ -50,7 +50,7 @@ a, a:hover, a:focus, button:hover, button:focus {
     text-decoration: none;
 }
 a:focus ,a:hover{
-    /*color:  #e09629;*/
+    color:  #e09629;
 }
 ul{
     margin: 0;
@@ -108,6 +108,7 @@ textarea {
 /*social icon top head*/
 .social-icon-top-head ul li{
     display: inline-block;
+    size: 3x;
 }
 .social-icon-top-head ul li + li{
     margin-left: 7px;
@@ -647,6 +648,7 @@ textarea {
 /*follow*/
 .social-grid li {
     display: inline-block;
+    size: 3rem;
 }
 .social-grid li + li{
     margin-left: 22px;
