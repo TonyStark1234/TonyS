@@ -203,6 +203,7 @@ img {
 svg {
   overflow: hidden;
   vertical-align: middle;
+  color: cornflowerblue;
 }
 
 table {
